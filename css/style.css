@@ -11,35 +11,73 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: 30px;
+
 }
 
 section {
-padding: 60px;
+    padding: 60px;
 
 }
 
 img {
     max-width: 20%;
 }
+
 ;
 
 
 .container {
     width: 120%;
     margin: 0 auto;
+
+
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+}
+
+
+h2 {
+
+    font-size: 15px;
+    font-weight: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 60px;
-    
+    justify-content: center;
+    padding: 60px 20px;
+    width: 100%;
+  
+    align-items: stretch;
+
+
 
 }
 
 .col {
+    display: flex;
     
-    width: calc(100%  / 3 );
-    padding: 25px;
+    text-align: center;
+    
+    width: calc(100% / 4 );
+    margin: 12px 12px 20px 20px;
+    background-color: rgba(35, 32, 46, 0.884);
+    color: white;
+    
+    border: 2px white;
+    font-size: 15px;
+
+}
+
+.pre-section {
+    text-align: center;
 }
 
