@@ -14,7 +14,7 @@ body {
 
 }
 
-section {
+.section {
     padding: 60px;
 
 }
@@ -27,8 +27,10 @@ img {
 
 
 .container {
-    width: 120%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
 
 
 }
@@ -46,14 +48,15 @@ h2 {
     font-size: 15px;
     font-weight: 15px;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 60px 20px;
+    justify-content: space-around;
+    margin: 20px;
     width: 100%;
   
     align-items: stretch;
@@ -64,18 +67,12 @@ h2 {
 
 .col {
     display: flex;
- 
-
-    
-    text-align: center;
-    
+    align-items: center;
     width: calc(100% / 4 );
-    margin: 12px 12px 20px 20px;
-    background-color: rgba(35, 32, 46, 0.884);
+    margin: 12px 12px;
+    background-color: rgba(83, 75, 114, 0.884);
     color: white;
-    
-    border: 2px white;
-    font-size: 15px;
+    font-size: 15px;    
 
 }
 
@@ -83,8 +80,20 @@ h2 {
     text-align: center;
 }
 
+.profile{
+    display: flex;
+    text-align: center;
+    
+}
+
 @media screen and (min-width: 500px) {
 .body {
       background-color: aqua;
     }
+}
+.name {
+    padding: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
