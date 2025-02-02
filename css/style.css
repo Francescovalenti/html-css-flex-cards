@@ -84,7 +84,7 @@ h2 {
 }
 
 @media screen and (min-width: 500px) {
-body {
+.body {
       background-color: aqua;
     }
 }
